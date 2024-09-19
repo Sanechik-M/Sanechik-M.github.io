@@ -1,0 +1,85 @@
+@font-face {
+	font-family: 'CormorantInfant'; 
+	src: local('CormorantInfant-Bold'),
+		url(CormorantInfant-Bold.ttf); 
+}
+body{
+    font-family: CormorantInfant, Roboto, Tahoma, sans-serif;
+    color: #000000;
+    background-image: url(../img/fon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.box{
+    top: 160px;
+    width: 80%;
+    height: 600px;  
+    background-color: #ffffff2d;
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    box-shadow:
+  0px 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0px 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0px 12.5px 10px rgba(0, 0, 0, 0.06),
+  0px 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0px 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0px 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+.box2{
+    margin-top: 20px;
+    height: 60px; 
+    background-color: #191919;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.box3{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 5px; 
+    background-color: #191919;
+    border-radius: 50px;
+}
+img{
+    height: 600px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow:
+  2.8px 0px 2.2px rgba(0, 0, 0, 0.034),
+  6.7px 0px 5.3px rgba(0, 0, 0, 0.048),
+  12.5px 0px 10px rgba(0, 0, 0, 0.06),
+  22.3px 0px 17.9px rgba(0, 0, 0, 0.072),
+  41.8px 0px 33.4px rgba(0, 0, 0, 0.086),
+  100px 0px 80px rgba(0, 0, 0, 0.12)
+;
+}
+.text1{
+    text-align: center;
+    font-size: 50px;
+}
+.text2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+}
+.text3{
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: start;
+    font-size: 26px;
+}
+.text4{
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: start;
+    font-size: 30px;
+}
+.col-xl-6{
+    padding: 0;
+}
